@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-clip-token-counter"
 description = "Shows real-time token count and adds a copy button to CLIPTextEncode nodes in ComfyUI."
-version = "1.0.0"
+version = "1.0"
 license = { file = "LICENSE" }
 dependencies = []
 
@@ -9,6 +9,6 @@ dependencies = []
 Repository = "https://github.com/Bob-Bar-B-Que/ComfyUI_clip_token_counter"
 
 [tool.comfy]
-PublisherId = "ЗАМІНИТИ_НА_ТВІЙ_PUBLISHER_ID"
+PublisherId = "bob-bar-b-que"
 DisplayName = "ComfyUI CLIP Token Counter"
 Tags = ["clip", "tokens", "ui", "text", "copy"]
