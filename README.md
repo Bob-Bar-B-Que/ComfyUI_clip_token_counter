@@ -18,14 +18,16 @@
 
 ## 🌻 Features
 
-### 🔢 Token Counter
-- Displays **real-time token count** in the bottom-left corner of every `CLIPTextEncode` node
-- Updates instantly as you type
+### Token Counter
+Simply open any **CLIPTextEncode** node — the token count appears automatically in the bottom-left corner as you type.
 
-### 📋 Copy Button
-- A **Copy button** appears in the bottom-right corner of every `CLIPTextEncode` node
-- Click it to copy the **entire prompt** to clipboard
-- If text is **selected** — copies only the selected portion
+### Copy · Paste · Clear
+- Click **Copy** to copy the full prompt, or select text first to copy only that portion
+- Click **Paste** to insert clipboard content at the end of existing text
+- Click **Clear** to erase all text from the field
+
+### Note node
+Hold **Alt** and copy any Note node to enable all features on it.
 
 ### ⚡ Performance
 - Only activates on `CLIPTextEncode` nodes — **zero overhead** on other nodes
@@ -65,20 +67,14 @@ Restart or run ComfyUI.
 
 ---
 
-## 🌻 How to Use
-
-### Token Counter
-Simply open any **CLIPTextEncode** node — the token count appears automatically in the bottom-left corner as you type.
-
-### Copy Button
-- Click **Copy** in the bottom-right corner to copy the full prompt
-- **Select a portion of text** first to copy only that selection
-
----
-
 ## 📋 Changelog
 
-### v1.0 — Current
+### v1.1.0 — Current
+- 📋 Paste button — pastes clipboard content into the text field without replacing existing text
+- 🗑️ Clear button — clears all text from the field instantly
+- 📝 All features now work on Note nodes too — just hold Alt and copy the node to enable
+
+### v1.0.0
 - 🔢 Real-time token counter for CLIPTextEncode nodes
 - 📋 Copy button for full or selected text
 - ⚡ Zero overhead on non-CLIP nodes
